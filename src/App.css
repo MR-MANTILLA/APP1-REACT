@@ -36,3 +36,10 @@
     transform: rotate(360deg);
   }
 }
+.Footer{
+  color: rgb(255, 255, 255);
+  position: fixed;
+  bottom: 0px;
+  width: 100%;
+  background:black;
+}
