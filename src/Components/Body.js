@@ -39,7 +39,7 @@ export default class Body extends React.Component{
                     {students.map(student=>{
                       return <li>{student}</li>
                       })
-                      };
+                      }
                 </div>
             </div>
       </div> 
