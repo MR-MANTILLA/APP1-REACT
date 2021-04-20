@@ -1,7 +1,7 @@
 import React from "react";
 import "../App.css"
 
-onst anio = new Date().getFullYear();
+const anio = new Date().getFullYear();
 class footer extends React.Component{
   render() {
     return(
