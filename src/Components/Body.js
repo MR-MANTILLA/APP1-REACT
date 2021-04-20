@@ -1,15 +1,15 @@
 import React from "react";
 
-const students=['Rosendo','Julio Jaramillo','Diomedes Diaz','Jorge Oñate'];
-const greeting = "Hola, acabo de activar vista oculta";
-const name = "Mi nombre es Jaider Ivan Vera Jaimes";
-const code = 1005012252;
+const students=['Pepito','Jose','Ivan','Luis']
+const coourse ={
+      profesor= 'pepito',
+      name='Mobile'
+}
 const Section = (props) => {
   return (
     <div className="card-body">
-      <h1 className="card-title">{greeting}</h1>
+      <h1 className="card-title">{profesor}</h1>
       <p className="card-text">{name}</p>
-      <p className="card-text">{code}</p>
     </div>
   );
 }
